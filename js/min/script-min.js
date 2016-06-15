@@ -1,0 +1,1 @@
+$(function(){$(".title").typed({strings:["Hello world!","12312312"],typeSpeed:1})});
