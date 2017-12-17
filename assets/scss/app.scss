@@ -299,6 +299,13 @@ main#project {
 }
 
 @media screen and (max-width: 690px) {
+    nav {
+        ul {
+            li {
+                padding: 1.5% 3.5%;
+            }
+        }
+    }
     section {
         &#masthead {
             .highlight {
