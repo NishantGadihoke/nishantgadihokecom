@@ -323,6 +323,9 @@ main#project {
                 .portfolio-item {
                     transform: scale(0.95);
                     margin-bottom: 20px;
+                    &:hover {
+                        transform: scale(0.95) translate(0,-10px);
+                    }
                 }
             }
         }
