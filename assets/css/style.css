@@ -285,7 +285,7 @@ main#project .project-content .img-container {
 
 @media screen and (max-width: 690px) {
   nav ul li {
-    padding: 1.5% 3.5%; }
+    padding: 1.5% 4.8%; }
   section#masthead .highlight {
     display: none; }
   section#masthead h1.hero {
@@ -296,6 +296,8 @@ main#project .project-content .img-container {
   section#work #portfolio .portfolio-item {
     transform: scale(0.95);
     margin-bottom: 20px; }
+  section#links .links ul {
+    list-style: none; }
   main#project .project-intro {
     padding-top: 0; }
     main#project .project-intro .highlight {

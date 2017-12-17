@@ -302,7 +302,7 @@ main#project {
     nav {
         ul {
             li {
-                padding: 1.5% 3.5%;
+                padding: 1.5% 4.8%;
             }
         }
     }
@@ -323,6 +323,13 @@ main#project {
                 .portfolio-item {
                     transform: scale(0.95);
                     margin-bottom: 20px;
+                }
+            }
+        }
+        &#links {
+            .links {
+                ul {
+                    list-style: none;
                 }
             }
         }
