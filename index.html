@@ -1,123 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
-		<title>Nishant Gadihoke</title>
-
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta charset="utf-8">
-		<meta name="title" content="Nishant Gadihoke &middot; User Experience Developer">
-		<meta name="description" content="Nishant Gadihoke works as a user experience developer with startups and individuals, creating efficient ways to solve everyday design problems.">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="theme-color" content="#1b2631">
-
-		<link rel="icon" type="image/png" href="img/logo.png">
-		<link rel="apple-touch-icon-precomposed" href="img/logo.png">
-		<link rel="apple-touch-icon" href="img/logo.png">
-
-		<link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet">
-		<link type="text/css" rel="stylesheet" href="css/style.css">
-
-		<meta property="og:image" content="img/logo.png">
-		<meta name="apple-mobile-web-app-title" content="Nishant Gadihoke">
-		<meta name="msapplication-TileColor" content="#1b2631">
-		<meta name="msapplication-TileImage" content="/img/logo.png">
-		<meta name="application-name" content="Nishant Gadihoke">
-
-		<script type="text/javascript">
-			var host = "anandchowdhary.com";
-			if ((host == window.location.host) && (window.location.protocol != "https:"))
-				window.location.protocol = "https";
-		</script>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Nishant Gadihoke</title>
+        <meta name="description" content="Description of the page less than 150 characters">
+        <link rel="icon" type="image/png" href="/assets/img/icon.png">
+        <link rel="apple-touch-icon" href="/assets/img/icon.png">
+        <meta name="theme-color" content="#f8f8f8">
+        <link href="https://fonts.googleapis.com/css?family=Hind+Madurai" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <base href="/">
     </head>
-    <body>
-
-    	<div class="container">
-
-    		<header>
-
-	        	<div class="row">
-
-	        		<div class="twelve columns">
-
-	        			<h1 class="title">Hello world!</h1>
-	        			<h2>I&rsquo;m Nishant Gadihoke, a <b>problem solver</b> from New Delhi, India.</h2>
-
-	        		</div>
-
-	        	</div>
-
-    		</header>
-
-    		<hr class="divider">
-
-        	<main>
-
-        		<div class="row">
-
-        			<div class="ten columns">
-
-        				<p>I work as a <b>user experience developer</b> with startups and individuals, creating efficient ways to solve everyday design problems.</p>
-        				<p>I&rsquo;ve had the great fortune of working with some of the most promising startups, individuals, as well as <a href="https://design.google.com">established companies</a> around the world.</p>
-        				<p>Take a look at some of my most recent work, below.</p>
-
-        				<div id="portfolio">
-
-        					<ul>
-
-        						<li><p class="portfolioName"><a href="https://getoswald.xyz">Oswald for Chrome</li>
-
-	        					<li><p class="portfolioName"><a href="http://nishantgadihoke.com/quotes">OneQuote</a></p></li>
-
-	        					<li><p class="portfolioName"><a href="http://minet.co">MINET</a></p></li>
-
-	        					<li><p class="portfolioName"><a href="http://indikala.com">Indikala</a></p></li>
-
-	        					<li><p class="portfolioName"><a href="http://castlekart.com">Castlekart</a></p></li>
-
-	        					<li><p class="portfolioName"><a href="http://nishantgadihoke.com/water-equipment">Water Equipment</a></p></li>
-
-	        					<li><p class="portfolioName"><a href="http://themis.in">The MIS</a></p></li>
-
-        					</ul>
-
-        				</div>
-
-        			</div>
-
-        		</div>
-
-        	</main>
-
-        	<footer>
-
-        		<div class="row">
-
-        			<div class="ten columns">
-
-	        			<p>If you liked my work, want to discuss design or just about anything under the sun, send me an email at <a href="mailto:hey@nishantgadihoke.com">hey@nishantgadihoke.com</a>.</p>
-			        	<p>Alternatively, you could follow me on <a href="https://www.facebook.com/nishantgadihoke">Facebook</a>, <a href="https://twitter.com/NishantGadihoke">Twitter</a> or <a href="https://www.instagram.com/gadihoker/">Instagram</a>.</p>
-			        	<p>This website is <a href="http://madewithlove.org.in">Made With Love in India</a>.</p>
-
-	        		</div>
-
-        		</div>
-
-        	</footer>
-
-		</div>
-
-		<script src="js/min/script-min.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+    <body ng-app="mainApp" ng-cloak>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="column-12">
+                        <ul>
+                            <li><a ui-sref="home">Home</a></li>
+                            <li><a href="/#work">Work</a></li>
+                            <li><a ui-sref="press">Press</a></li>
+                            <li><a href="/#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div ui-view></div>
+        <footer>
+            <div class="container">
+                <div class="columns-12">
+                    <p>&copy; Nishant Gadihoke 2017</p>
+                </div
+            </div>
+        </footer>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-animate.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="/assets/js/app.js"></script>
     </body>
 </html>

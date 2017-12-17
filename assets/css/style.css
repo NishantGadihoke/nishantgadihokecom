@@ -1,0 +1,308 @@
+.container,
+.row {
+  *zoom: 1; }
+  .container:before,
+  .row:before, .container:after,
+  .row:after {
+    content: " ";
+    display: table; }
+  .container:after,
+  .row:after {
+    clear: both; }
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto !important; }
+
+.container {
+  width: 90%;
+  margin: 0 auto; }
+
+[class*='column-'] {
+  float: left;
+  padding: 1em;
+  width: 100%;
+  min-height: 1px; }
+
+@media only screen and (min-width: 30em) {
+  .container {
+    width: 95%;
+    max-width: 70em; }
+  .column-1 {
+    width: 8.3333333333%; }
+  .column-2 {
+    width: 16.6666666667%; }
+  .column-3 {
+    width: 25%; }
+  .column-4 {
+    width: 33.3333333333%; }
+  .column-5 {
+    width: 41.6666666667%; }
+  .column-6 {
+    width: 50%; }
+  .column-7 {
+    width: 58.3333333333%; }
+  .column-8 {
+    width: 66.6666666667%; }
+  .column-9 {
+    width: 75%; }
+  .column-10 {
+    width: 83.3333333333%; }
+  .column-11 {
+    width: 91.6666666667%; }
+  .column-12 {
+    width: 100%; } }
+
+body {
+  margin: 0;
+  font-family: "Hind Madurai", BlinkMacSystemFont, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #333; }
+
+a {
+  color: #333;
+  border-bottom: 1px solid #e6e5e5;
+  text-decoration: none;
+  transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1); }
+
+a:hover {
+  border-bottom-color: #333; }
+
+h1 {
+  font-size: 1.6em;
+  margin: 0 0 15px 0; }
+
+nav {
+  padding: 15px 0; }
+  nav ul {
+    list-style: none;
+    padding: none;
+    text-align: center; }
+    nav ul li {
+      display: inline-block;
+      padding: 1.5% 5%; }
+
+.small {
+  width: 580px;
+  max-width: 100%; }
+  .small p {
+    margin: 12.5px 0; }
+    .small p.no-m-t {
+      margin-top: 0; }
+    .small p:last-of-type {
+      margin-bottom: 0; }
+
+.centered {
+  margin: 0 auto; }
+
+section {
+  padding: 8vh 0;
+  position: relative; }
+  section.grey {
+    background: #f8f8f8; }
+  section#masthead {
+    padding: 0; }
+    section#masthead .highlight .img-description {
+      text-align: center; }
+      section#masthead .highlight .img-description p {
+        margin: 10px 0; }
+    section#masthead h1.hero {
+      font-size: 2.5em;
+      max-width: 90%;
+      padding-top: 30%; }
+  section#work #portfolio {
+    margin: 7vh 0 0 0; }
+    section#work #portfolio .column-4 {
+      padding: 2.5%; }
+    section#work #portfolio .portfolio-item {
+      cursor: pointer;
+      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.06);
+      height: 480px;
+      background: #fff;
+      transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+      position: relative; }
+      section#work #portfolio .portfolio-item:hover {
+        box-shadow: 0 40px 40px rgba(0, 0, 0, 0.16);
+        transform: translate(0, -20px);
+        transition-delay: 0s !important; }
+      section#work #portfolio .portfolio-item .portfolio-preview {
+        height: 296px;
+        padding: 8px;
+        position: relative;
+        text-align: center;
+        border-radius: 3px 3px 0 0; }
+        section#work #portfolio .portfolio-item .portfolio-preview img {
+          max-height: 100%;
+          margin: 0;
+          -webkit-user-drag: none;
+          -ms-user-drag: none;
+          -moz-user-drag: none;
+          user-drag: none;
+          user-select: none; }
+      section#work #portfolio .portfolio-item .portfolio-text {
+        position: relative;
+        height: 184px;
+        padding: 5%;
+        border-radius: 0 0 3px 3px; }
+        section#work #portfolio .portfolio-item .portfolio-text h1.portfolio-heading {
+          margin-bottom: 10px;
+          font-weight: 400; }
+        section#work #portfolio .portfolio-item .portfolio-text .portfolio-intro {
+          position: relative;
+          margin: 0;
+          padding-bottom: 5%; }
+        section#work #portfolio .portfolio-item .portfolio-text .portfolio-tags {
+          padding: 5%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          color: #aaa;
+          border-top: 1px solid #e9ebee;
+          text-transform: uppercase;
+          font-size: 0.8em;
+          letter-spacing: 0.5px; }
+          section#work #portfolio .portfolio-item .portfolio-text .portfolio-tags ul {
+            list-style: none; }
+            section#work #portfolio .portfolio-item .portfolio-text .portfolio-tags ul li {
+              display: inline-block; }
+      section#work #portfolio .portfolio-item.disabled {
+        opacity: 0.6;
+        filter: grayscale(100%);
+        transition: none; }
+        section#work #portfolio .portfolio-item.disabled:hover:hover {
+          box-shadow: 0 20px 20px rgba(0, 0, 0, 0.06);
+          transform: translate(0); }
+  section#press {
+    padding-top: 4vh; }
+  section#links .links ul {
+    list-style: circle; }
+    section#links .links ul li {
+      margin-bottom: 20px; }
+      section#links .links ul li .date {
+        color: #aaa;
+        display: block; }
+
+footer {
+  text-align: center;
+  background: #f8f8f8;
+  padding: 0 0 4vh 0; }
+
+main#project .project-intro {
+  padding-top: 0; }
+  main#project .project-intro .highlight .img-description {
+    text-align: center; }
+    main#project .project-intro .highlight .img-description p {
+      margin: 10px 0;
+      color: #595959; }
+  main#project .project-intro .project-about {
+    max-width: 90%; }
+    main#project .project-intro .project-about h1.title {
+      font-size: 3em;
+      padding-top: 30%;
+      font-weight: 800; }
+    main#project .project-intro .project-about h2.sub {
+      font-size: 2em;
+      font-weight: 100;
+      color: #666666;
+      margin-bottom: 22.5px; }
+    main#project .project-intro .project-about h3.services {
+      font-weight: 100; }
+      main#project .project-intro .project-about h3.services ul {
+        list-style: none;
+        padding: 0; }
+        main#project .project-intro .project-about h3.services ul li {
+          display: inline-block;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-size: 0.8em;
+          color: #666666; }
+          main#project .project-intro .project-about h3.services ul li:not(:last-child)::after {
+            content: ","; }
+
+main#project .project-content .small.centered {
+  position: relative;
+  display: block; }
+  main#project .project-content .small.centered h1.pad-top {
+    padding-top: 45px; }
+  main#project .project-content .small.centered blockquote {
+    background: #f2f2f2;
+    padding: 2.5% 2.5% 2.5% 5%;
+    border-left: 2px solid #b3b2b2;
+    border-radius: 0 3px 3px 0;
+    margin-bottom: 15px; }
+    main#project .project-content .small.centered blockquote p:first-child {
+      margin-top: 0; }
+    main#project .project-content .small.centered blockquote.m-top {
+      margin-top: 15px; }
+  main#project .project-content .small.centered.iframe {
+    text-align: center; }
+    main#project .project-content .small.centered.iframe iframe {
+      margin: 50px auto; }
+
+main#project .project-content .img-container {
+  width: 800px;
+  max-width: 100%;
+  margin: 40px auto;
+  text-align: center;
+  position: relative;
+  display: block; }
+  main#project .project-content .img-container iframe {
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: none;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 100%;
+    display: block; }
+  main#project .project-content .img-container p.caption {
+    margin: 10px 0;
+    color: #666666; }
+
+.ng-enter {
+  transition: 0.6s ease-in-out all;
+  opacity: 0; }
+
+.ng-enter.ng-enter-active {
+  opacity: 1; }
+
+@media screen and (max-width: 690px) {
+  section#masthead .highlight {
+    display: none; }
+  section#masthead h1.hero {
+    font-size: 2.3em;
+    max-width: 100%;
+    padding-top: 7.5%;
+    margin-bottom: 0; }
+  section#work #portfolio .portfolio-item {
+    transform: scale(0.95);
+    margin-bottom: 20px; }
+  main#project .project-intro {
+    padding-top: 0; }
+    main#project .project-intro .highlight {
+      display: none; }
+    main#project .project-intro .project-about {
+      max-width: 100%; }
+      main#project .project-intro .project-about h1.title {
+        font-size: 2.6em;
+        padding-top: 0%; }
+      main#project .project-intro .project-about h2.sub {
+        font-size: 1.6em;
+        margin-bottom: 22.5px; } }
