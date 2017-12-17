@@ -19,6 +19,67 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/img\/icons\/apple-touch-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 4792,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icons\/apple-touch-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icons\/apple-touch-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 6570,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icons\/apple-touch-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 272,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icons\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 487,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icons\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icons\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/img\/icons\/favicon.ico",
+		"oF": 0
+		},
+	"\/assets\/img\/icons\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 4792,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icons\/mstile-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/projects\/a4e\/1.png": {
 		"ft": 32768,
 		"iS": 17320,
