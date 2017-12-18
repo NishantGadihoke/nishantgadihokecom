@@ -974,6 +974,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/CNAME": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CNAME",
+		"oF": 0
+		},
 	"\/home.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1090,6 +1096,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/work\/shravan.html",
+		"oF": 0
+		},
+	"\/zohoverify\/verifyforzoho.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/zohoverify\/verifyforzoho.html",
 		"oF": 0
 		}
 	},
