@@ -297,7 +297,8 @@ main#project .project-content .img-container {
     transform: scale(0.95);
     margin-bottom: 20px; }
     section#work #portfolio .portfolio-item:hover {
-      transform: scale(0.95) translate(0, -10px); }
+      transform: scale(0.95) translate(0, -10px);
+      border: none; }
   section#links .links ul {
     list-style: none; }
   main#project .project-intro {
