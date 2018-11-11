@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Forbes 30 Under 30 Asia List - Youngest",
+        "date": "March 2018",
+        "source": "Forbes Magazine",
+        "extract": "Oswald Labs's mission is to create technology that is universally accessible. The company, cofounded by Anand Chowdhary and Nishant Gadihoke, offers a free online reading tool for people with dyslexia and other visual complications that works via a widget that can be `plugged in` by developers to most websites.",
+        "img": "forbes.png",
+        "link": "https://www.forbes.com/profile/oswald-labs/#5e41e2054374"
+        
+    },
+    {
+        "title": "At just 16 and 18, these Delhi teens are using tech to make the web accessible to dyslexics and the visually impaired",
+        "date": "March 2017",
+        "source": "YourStory",
+        "extract": "Oswald Foundation is an accessibility technology company.  Established in 2016 by then 18-year-old Anand and 15-year-old Nishant Gadihoke, it helps build products for individuals suffering from disabilities. The duo was soon joined by Mahendra Raghuwanshi as the third co-founder of the company and senior most member of the team.",
+        "img": "yourstory.png",
+        "link": "https://yourstory.com/2017/03/just-16-and-18-delhi-teens-web-accessible-dyslexics-visually-impaired/"
+    },
+    {
+        "title": "Young 'techies' show skills at this inventors' nursery",
+        "date": "October 2016",
+        "source": "Times of India",
+        "extract": "The fest included a hackathon with the theme: travel industry efficiency. Shrey Sharma and Nishant Gadihoke of Mother’s International, Delhi drew plaudits for a chatbot to assist bookings.",
+        "img": "toi.png",
+        "link": "https://timesofindia.indiatimes.com/city/gurgaon/Young-techies-show-skills-at-this-inventors-nursery/articleshow/54987369.cms"
+    },
+    {
+        "title": "These Delhi Teens Want To Change The Web With Their Reading App For Dyslexics",
+        "date": "August 2016",
+        "source": "Huffington Post",
+        "extract": "The Delhi-based teenagers created an app called Oswald, that helps people with dsylexia, visual impairment, and learning disorders to browse the web easily.",
+        "img": "huffingtonpost.png",
+        "link": "https://www.huffingtonpost.in/2016/08/01/two-teenagers-from-delhi-want-to-change-the-web-with-this-readin_a_21442472/"
+    },
+    {
+        "title": "App to help dyslexics browse the internet",
+        "date": "July 2016",
+        "source": "Hindustan Times",
+        "extract": "Two teenage boys from Delhi, Anand Chowdhary, 18, and Nishant Gadihoke, 15, have developed an app called 'Oswald' that helps people with dyslexia, visual impairment and other disabilities browse the internet.",
+        "img": "hindustantimes.png",
+        "link": "http://paper.hindustantimes.com/epaper/iphone/showpage.aspx?issue=89332016071000000000001001&page=6&returnUrl=http%253a%252f%252fpaper.hindustantimes.com%252fepaper%252fiphone%252fhomepage.aspx%2523_title89332016071000000000001001%252fwatitle8933201607100"
+    }
+]

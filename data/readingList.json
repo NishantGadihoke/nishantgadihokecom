@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Design as Art",
+        "author": "Bruno Munari",
+        "img": "design-as-art.png",
+        "link": "https://www.amazon.com/Design-As-Art-Bruno-Munari/dp/0141035811/"
+        
+    },
+    {
+        "title": "Hooked",
+        "author": "Nir Eyal",
+        "img": "hooked.png",
+        "link": "https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788/"
+    },
+    {
+        "title": "Creative Confidence",
+        "author": "Tom Kelley & David Kelley",
+        "img": "creative-confidence.png",
+        "link": "https://www.amazon.com/Creative-Confidence-Unleashing-Potential-Within/dp/038534936X"
+    },
+    {
+        "title": "Outliers",
+        "author": "Malcom Gladwell",
+        "img": "outliers.png",
+        "link": "https://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930"
+    }
+]
