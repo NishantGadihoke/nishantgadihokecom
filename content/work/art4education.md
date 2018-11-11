@@ -1,7 +1,7 @@
 ---
 title: "Art4Education"
 date: 2018-11-11T01:54:09+05:30
-draft: true
+draft: false
 weight: 6
 homeImg: "art4education/home.png"
 coverImg: "art4education/cover.png"

@@ -1,7 +1,7 @@
 ---
 title: "Project Element"
 date: 2018-11-10T13:41:34+05:30
-draft: true
+draft: false
 weight: 4
 homeImg: "project-element/home.png"
 coverImg: "project-element/cover.png"

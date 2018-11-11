@@ -1,7 +1,7 @@
 ---
 title: "Apollo"
 date: 2018-11-10T13:55:21+05:30
-draft: true
+draft: false
 weight: 11
 homeImg: "apollo/home.png"
 coverImg: "apollo/cover.png"

@@ -1,7 +1,7 @@
 ---
 title: "MINET X"
 date: 2018-11-10T23:04:12+05:30
-draft: true
+draft: false
 weight: 10
 homeImg: "minet-x/home.png"
 coverImg: "minet-x/cover.png"

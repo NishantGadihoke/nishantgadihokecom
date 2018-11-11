@@ -3,7 +3,7 @@ title: "Contact"
 date: 2018-11-11T11:55:12+05:30
 description: "If you think that I would be a good fit to work with or if you're interested in something I contributed to, feel free to reach out to me via the channels  below."
 intro: ["If you think that I would be a good fit to work with or if you're interested in something I contributed to, feel free to reach out to me via the channels  below."]
-draft: true
+draft: false
 ---
 
 You can write to me at [mail@nishantgadihoke.com](mailto:mail@nishantgadihoke.com) to which I usually respond within twenty-four hours.

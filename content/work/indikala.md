@@ -1,7 +1,7 @@
 ---
 title: "Indikala"
 date: 2018-11-10T13:55:12+05:30
-draft: true
+draft: false
 weight: 2
 homeImg: "indikala/home.png"
 coverImg: "indikala/cover.png"

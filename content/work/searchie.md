@@ -1,7 +1,7 @@
 ---
 title: "Searchie"
 date: 2018-11-10T13:41:27+05:30
-draft: true
+draft: false
 weight: 7
 homeImg: "searchie/home.png"
 coverImg: "searchie/cover.png"

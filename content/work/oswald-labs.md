@@ -1,7 +1,7 @@
 ---
 title: "Oswald Labs"
 date: 2018-11-10T13:41:15+05:30
-draft: true
+draft: false
 weight: 1
 homeImg: "oswald-labs/home.png"
 coverImg: "oswald-labs/cover.png"

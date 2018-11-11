@@ -1,7 +1,7 @@
 ---
 title: "Naari"
 date: 2018-11-10T13:42:06+05:30
-draft: true
+draft: false
 weight: 3
 homeImg: "naari/home.png"
 coverImg: "naari/cover.png"

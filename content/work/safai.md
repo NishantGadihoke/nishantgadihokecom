@@ -1,7 +1,7 @@
 ---
 title: "Safai"
 date: 2018-11-10T13:55:17+05:30
-draft: true
+draft: false
 weight: 5
 homeImg: "safai/home.png"
 coverImg: "safai/cover.png"

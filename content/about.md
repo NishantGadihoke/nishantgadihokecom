@@ -3,7 +3,7 @@ title: "About"
 date: 2018-11-11T11:55:12+05:30
 description: "I brainstorm design on whiteboards, in notebooks, on my palms or anything I can find. Then, I bring it onto a screen using Sketch or Figma and code in HTML, CSS, and JavaScript."
 intro: ["This little place on the internet is about myself."]
-draft: true
+draft: false
 ---
 
 Hi! I'm Nishant Gadihoke. I’m a user experience engineer based out of New Delhi, India. That essentially means that I can design meaningful products and build them using code.

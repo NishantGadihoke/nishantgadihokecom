@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/work/oswald-labs/</loc>
+    <lastmod>2018-11-10T13:41:15+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/indikala/</loc>
+    <lastmod>2018-11-10T13:55:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/naari/</loc>
+    <lastmod>2018-11-10T13:42:06+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/project-element/</loc>
+    <lastmod>2018-11-10T13:41:34+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/safai/</loc>
+    <lastmod>2018-11-10T13:55:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/art4education/</loc>
+    <lastmod>2018-11-11T01:54:09+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/searchie/</loc>
+    <lastmod>2018-11-10T13:41:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/baymax/</loc>
+    <lastmod>2018-11-10T13:42:01+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/bharathacks/</loc>
+    <lastmod>2018-11-10T13:55:05+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/minet-x/</loc>
+    <lastmod>2018-11-10T23:04:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/apollo/</loc>
+    <lastmod>2018-11-10T13:55:21+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2018-11-11T11:55:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/contact/</loc>
+    <lastmod>2018-11-11T11:55:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/</loc>
+    <lastmod>2018-11-11T11:55:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/branding/</loc>
+    <lastmod>2018-11-10T13:55:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/co-founder/</loc>
+    <lastmod>2018-11-10T13:41:15+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/developement/</loc>
+    <lastmod>2018-11-11T01:54:09+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/development/</loc>
+    <lastmod>2018-11-10T13:41:15+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/logistics/</loc>
+    <lastmod>2018-11-10T13:55:05+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/motion-design/</loc>
+    <lastmod>2018-11-10T13:41:34+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2018-11-10T13:41:15+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2018-11-10T13:55:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/ux-design/</loc>
+    <lastmod>2018-11-10T13:41:15+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/visual-design/</loc>
+    <lastmod>2018-11-10T13:55:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

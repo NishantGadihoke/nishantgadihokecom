@@ -1,7 +1,7 @@
 ---
 title: "Bharathacks"
 date: 2018-11-10T13:55:05+05:30
-draft: true
+draft: false
 weight: 9
 homeImg: "bharathacks/home.png"
 coverImg: "bharathacks/cover.png"

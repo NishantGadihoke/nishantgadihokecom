@@ -1,7 +1,7 @@
 ---
 title: "Baymax"
 date: 2018-11-10T13:42:01+05:30
-draft: true
+draft: false
 weight: 8
 homeImg: "baymax/home.png"
 coverImg: "baymax/cover.png"
