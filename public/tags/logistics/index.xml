@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Logistics on Nishant Gadihoke</title>
-    <link>http://example.org/tags/logistics/</link>
+    <link>http://nishantgadihoke.com/tags/logistics/</link>
     <description>Recent content in Logistics on Nishant Gadihoke</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Nov 2018 13:55:05 +0530</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/logistics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nishantgadihoke.com/tags/logistics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bharathacks</title>
-      <link>http://example.org/work/bharathacks/</link>
+      <link>http://nishantgadihoke.com/work/bharathacks/</link>
       <pubDate>Sat, 10 Nov 2018 13:55:05 +0530</pubDate>
       
-      <guid>http://example.org/work/bharathacks/</guid>
+      <guid>http://nishantgadihoke.com/work/bharathacks/</guid>
       <description>In the summer of 2017, I co-organised BharatHacks, a hackathon for solving India-specific problems. As co-organiser, I set up the website and registration apart from managing the entire venue and other logistics.
 Here’s an extract from a social media post:
  This June, I’m organizing BharatHacks, a hackathon for solving India-specific problems. Programmers, designers, engineers, and entrepreneurs will come together to build products to make lives better. Organized in collaboration with Facebook Developer Circle Delhi-NCR, BharatHacks will help you take your idea forward, from hacking to raising investment and launching your product in the market.</description>
