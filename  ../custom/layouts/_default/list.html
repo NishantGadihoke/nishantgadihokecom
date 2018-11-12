@@ -1,0 +1,72 @@
+{{ partial "header.html" . }}
+	<main>
+		<section id="intro" class="project-intro">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-xs-12 col-md-6 col-lg-4">
+	                    <h1 class="project-title">{{ .Title }}</h1>
+	                    {{ range .Params.intro }}
+							<h2 class="project-description">
+		                    {{ . }}
+		                    </h2>
+						{{ end }}
+	                </div>
+	            </div>
+	        </div>
+	    </section>
+		<article>
+			<section id="portfolio">
+            	<div class="container">
+                	<div class="row">
+						<div class="col-xs-12 col-md-6">
+							{{ range where .Pages.ByWeight "Section" "work" | first 6 }}
+							<a href="{{ .URL }}" class="grid-item-link-portfolio">
+								<div class="grid-item">
+		                            <div class="grid-item-preview" style="background:{{ .Params.color }};">
+		                                <img class="grid-item-img" src="{{ .Site.BaseURL }}/img/{{ .Params.coverImg }}" alt="">
+		                            </div>
+		                            <div class="row">
+		                                <div class="col-xs-12 col-md-8">
+		                                    <h2 class="grid-item-title">{{ .Title }}</h2>
+		                                </div>
+		                                <div class="col-xs-12 col-md-4">
+		                                    <ul class="tags">
+		                                        {{ range .Params.tags | first 2 }}
+												<li class="tag">{{ . }}</li>
+												{{ end }}
+		                                    </ul>
+		                                </div>
+		                            </div>
+		                        </div>
+							</a>
+							{{ end }}
+						</div>
+						<div class="col-xs-12 col-md-6">
+							{{ range where .Pages.ByWeight "Section" "work" | last 5 }}
+							<a href="{{ .URL }}" class="grid-item-link-portfolio">
+								<div class="grid-item">
+		                            <div class="grid-item-preview" style="background:{{ .Params.color }};">
+		                                <img class="grid-item-img" src="{{ .Site.BaseURL }}/img/{{ .Params.coverImg }}" alt="">
+		                            </div>
+		                            <div class="row">
+		                                <div class="col-xs-12 col-md-8">
+		                                    <h2 class="grid-item-title">{{ .Title }}</h2>
+		                                </div>
+		                                <div class="col-xs-12 col-md-4">
+		                                    <ul class="tags">
+		                                        {{ range .Params.tags | first 2 }}
+												<li class="tag">{{ . }}</li>
+												{{ end }}
+		                                    </ul>
+		                                </div>
+		                            </div>
+		                        </div>
+							</a>
+							{{ end }}
+						</div>
+		            </div>
+		        </div>
+		    </section>
+		</article>
+	</main>
+{{ partial "footer.html" . }}

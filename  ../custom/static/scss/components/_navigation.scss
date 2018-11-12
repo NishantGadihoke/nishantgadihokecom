@@ -1,0 +1,53 @@
+nav {
+    font-size: 1em;
+    padding: 2.5vh 0;
+    .nav-name {
+        a {
+            border-bottom: none;
+        }
+    }
+    .nav-links {
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li {
+                display: inline-block;
+                padding: 0 2.5%;
+                &:first-of-type {
+                    padding-left: 0;
+                }
+                &.active {
+                    a {
+                        font-weight: 800;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    
+}
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        .nav-name {
+            display: none;
+        }
+        .nav-links {
+            width: 100%;
+            text-align: center;
+            ul {
+                li {
+                    padding: 0 5%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,168 @@
+{{ partial "header.html" . }}
+	<main>
+		<section id="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <h1 class="hi">Hello, I&rsquo;m Nishant Gadihoke, a user experience engineer based out of New Delhi.</h1>
+                        <h2 class="more">
+                            I&rsquo;m currently studying Computer Science and Design at IIIT Delhi alongside running <a href="">Oswald Labs</a>, an award-winning accessibility technology company.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="work" class="home-section">
+            <div class="container">
+                <h1 class="home-section-heading">Recent work<span class="emoji">&#x1F454;</span></h1>
+                <div class="row">
+					{{ range where .Site.Pages.ByDate "Section" "work" | first 3 }}
+					<a href="{{ .URL }}" class="home-page-item-link">
+						<div class="col-xs-12 col-md-4">
+							<div class="grid-item">
+								<div class="grid-item-preview" style="background:{{ .Params.color }};">
+									<img class="grid-item-img" src="{{ .Site.BaseURL }}/img/{{ .Params.homeImg }}" alt="">
+								</div>
+								<div class="row">
+									<div class="col-xs-12 col-md-12">
+										<h2 class="grid-item-title">{{ .Title }}</h2>
+										<p class="grid-item-short-description">{{ .Params.description }}</p>
+										<p class="grid-item-link"><a href="{{ .URL }}">View project</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					{{ end }}
+                </div>
+            </div>
+        </section>
+        
+        <section id="reading" class="home-section">
+            <div class="container">
+                <h1 class="home-section-heading">Current reading list<span class="emoji">&#x1F453;</span></h1>
+                <div class="row">
+					{{ range .Site.Data.readingList | first 4 }}
+					<a href="{{ .link }}" class="home-page-item-link">
+						<div class="col-xs-6 col-md-3">
+	                        <div class="grid-item reading-list-item">
+	                            <div class="grid-item-preview" style="background:#f1f2f6;">
+	                                <img class="grid-item-img" src="{{ .Site.BaseURL }}/img/books/{{ .img }}" alt="">
+	                            </div>
+	                            <div class="row">
+	                                <div class="col-xs-12 col-md-12">
+	                                    <h2 class="grid-item-title reading-list-item-title">{{ .title }}</h2>
+	                                    <p class="grid-item-short-description reading-list-item-author">by {{ .author }}</p>
+	                                    <p class="grid-item-link"><a href="{{ .link }}">Check it out</a></p>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+					</a>
+					{{ end }}
+                </div>
+            </div>
+        </section>
+        
+        <section id="press" class="home-section">
+            <div class="container">
+                <h1 class="home-section-heading">In the news<span class="emoji">&#x1F50A;</span></h1>
+                <div class="row">
+					{{ range .Site.Data.press | first 4 }}
+                    <a href="{{ .link }}" class="home-page-item-link">
+						<div class="col-xs-6 col-md-3">
+	                        <div class="grid-item press-item">
+	                            <div class="grid-item-preview" style="background:#474787;">
+	                                <img class="grid-item-img" src="{{ .Site.BaseURL }}/img/press/{{ .img }}" alt="">
+	                            </div>
+	                            <div class="row">
+	                                <div class="col-xs-12 col-md-12">
+	                                    <h2 class="grid-item-title press-item-title">{{ .title | truncate 45 }}</h2>
+										<p class="grid-item-date press-item-date">{{ .date }}</p>
+	                                    <p class="grid-item-short-description press-item-extract">{{ .extract | truncate 75 }}</p>
+										<p class="grid-item-link"><a href="{{ .link }}">Read the article</a></p>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+                    </a>
+					{{ end }}
+                </div>
+            </div>
+        </section>
+        
+        <section id="travel" class="home-section">
+            <div class="container">
+                <h1 class="home-section-heading">Around the world <span class="emoji">&#x1F30E;</span></h1>
+                <div class="row">
+					{{ range .Site.Data.places | first 3 }}
+						{{ if eq .link "" }}
+						<div class="col-xs-12 col-md-4">
+	                        <div class="grid-item reading-list-item">
+	                            <div class="grid-item-preview travel-item-preview" style="background-image:url({{ .img }})"></div>
+	                            <div class="row">
+	                                <div class="col-xs-12 col-md-12">
+	                                    <h2 class="grid-item-title places-item-title">
+											{{ .title }}
+											<!-- <span class="country">{{ .country }}</span> -->
+											{{ if eq .country "India" }}
+												<span class="emoji">&#x1F1EE;&#x1F1F3;</span>
+											{{ else if eq .country "Bhutan" }}
+												<span class="emoji">&#x1F1E7;&#x1F1F9;</span>
+											{{ else if eq .country "United Arab Emirates" }}
+												<span class="emoji">&#x1F1E6;&#x1F1EA;</span>
+											{{ else if eq .country "United States" }}
+												<span class="emoji">&#x1F1FA;&#x1F1F8;</span>
+											{{ end }}
+										</h2>
+										
+										<p class="grid-item-date places-item-date">{{ .date }}</p>
+										{{ if eq .link "" }}
+										<p class="grid-item-link">Upcoming</p>
+										{{ else }}
+	                                    <p class="grid-item-link"><a href="{{ .link }}">Read the story</a></p>
+										{{ end }}
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+						{{ else }}
+						<a href="{{ .link }}" class="home-page-item-link">
+							<div class="col-xs-12 col-md-4">
+		                        <div class="grid-item reading-list-item">
+		                            <div class="grid-item-preview travel-item-preview" style="background-image:url({{ .img }})"></div>
+		                            <div class="row">
+		                                <div class="col-xs-12 col-md-12">
+		                                    <h2 class="grid-item-title places-item-title">
+												{{ .title }}
+												<!-- <span class="country">{{ .country }}</span> -->
+												{{ if eq .country "India" }}
+													<span class="emoji">&#x1F1EE;&#x1F1F3;</span>
+												{{ else if eq .country "Bhutan" }}
+													<span class="emoji">&#x1F1E7;&#x1F1F9;</span>
+												{{ else if eq .country "United Arab Emirates" }}
+													<span class="emoji">&#x1F1E6;&#x1F1EA;</span>
+												{{ else if eq .country "United States" }}
+													<span class="emoji">&#x1F1FA;&#x1F1F8;</span>
+												{{ end }}
+											</h2>
+											
+											<p class="grid-item-date places-item-date">{{ .date }}</p>
+											{{ if eq .link "" }}
+											<p class="grid-item-link">Upcoming</p>
+											{{ else }}
+		                                    <p class="grid-item-link"><a href="{{ .link }}">Read the story</a></p>
+											{{ end }}
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+						</a>
+						{{ end }}
+					{{ end }}
+                </div>
+            </div>
+        </section>
+	</main>
+{{ partial "footer.html" . }}

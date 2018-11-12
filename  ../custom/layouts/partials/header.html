@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{{ .Title }}</title>
+	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+	<meta name="keywords" content="Nishant Gadihoke, Nishant, Gadihoke, UX, Design, Oswald Labs ">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css">
+	{{ .Hugo.Generator }}
+</head>
+<body>
+	<header>
+		<nav>
+	        <div class="container">
+	            <div class="row">
+	                <div class="nav-name col-md-6">
+	                    <a href="{{ .Site.BaseURL }}">
+	                        <p class="nav-name-home">{{ .Site.Title }}</p>
+	                    </a>
+	                </div>
+	                <div class="nav-links col-xs-12 col-md-6">
+	                    <ul>
+	                        <li {{ if eq .Title "Nishant Gadihoke" }}class="active"{{end}}>
+	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}">Home</a></p>
+	                        </li>
+	                        <li {{ if eq .Title "Work" }}class="active"{{end}}>
+	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}/work/">Work</a></p>
+	                        </li>
+	                        <li {{ if eq .Title "About" }}class="active"{{end}}>
+	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}/about/">About</a></p>
+	                        </li>
+	                        <li {{ if eq .Title "Contact" }}class="active"{{end}}>
+	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}/contact/">Contact</a></p>
+	                        </li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </div>
+	    </nav>		
+	</header>
