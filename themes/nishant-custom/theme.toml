@@ -1,0 +1,11 @@
+name = "Nishant's Custom Tgene"
+license = "MIT"
+description = "A custom Hugo theme as featured on https://nishantgadihoke.com"
+homepage = "https://github.com/nishantgadihoke/nishantgadihokecom"
+tags = ["portfolio", "personal", "blog"]
+features = ["blog"]
+min_version = 0.10
+
+[author]
+  name = "Nishant Gadihoke"
+  homepage = "https://github.com/nishantgadihoke"

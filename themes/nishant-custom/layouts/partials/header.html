@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{{ .Site.Title }} {{ if not (eq .Title .Site.Title )}} &middot; {{ .Title }} {{ end }}</title>
+	<meta name="description" content="Nishant Gadihoke is a user experience engineer based out of New Delhi. He is the co-founder and CTO of Oswald Labs, an award-winning accessibility technology company.">
+	<meta name="author" content="Nishant Gadihoke">
+	<meta name="keywords" content="Nishant Gadihoke, Nishant, Gadihoke, UX, Design, Oswald Labs ">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ .Site.BaseURL }}img/icons/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ .Site.BaseURL }}img/icons/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ .Site.BaseURL }}img/icons/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ .Site.BaseURL }}img/icons/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ .Site.BaseURL }}img/icons/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ .Site.BaseURL }}img/icons/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ .Site.BaseURL }}img/icons/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ .Site.BaseURL }}img/icons/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="{{ .Site.BaseURL }}img/icons/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="{{ .Site.BaseURL }}img/icons/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="{{ .Site.BaseURL }}img/icons/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="{{ .Site.BaseURL }}img/icons/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="{{ .Site.BaseURL }}img/icons/favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="Nishant Gadihoke"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="{{ .Site.BaseURL }}img/icons/mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="{{ .Site.BaseURL }}img/icons/mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="{{ .Site.BaseURL }}img/icons/mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="{{ .Site.BaseURL }}img/icons/mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="{{ .Site.BaseURL }}img/icons/mstile-310x310.png" />
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+	{{ .Hugo.Generator }}
+</head>
+<body>
+	<header>
+		<nav>
+	        <div class="container">
+	            <div class="row">
+	                <div class="nav-name col-md-6">
+	                    <a href="{{ .Site.BaseURL }}">
+	                        <p class="nav-name-home">{{ .Site.Title }}</p>
+	                    </a>
+	                </div>
+	                <div class="nav-links col-xs-12 col-md-6">
+	                    <ul>
+	                        <li {{ if eq .Title "Nishant Gadihoke" }}class="active"{{end}}>
+	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}">Home</a></p>
+	                        </li>
+	                        <li {{ if eq .Title "Work" }}class="active"{{end}}>
+	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}work/">Work</a></p>
+	                        </li>
+	                        <li {{ if eq .Title "About" }}class="active"{{end}}>
+	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}about/">About</a></p>
+	                        </li>
+	                        <li {{ if eq .Title "Contact" }}class="active"{{end}}>
+	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}contact/">Contact</a></p>
+	                        </li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </div>
+	    </nav>		
+	</header>
