@@ -13,7 +13,7 @@ tags: ["UX Design", "Development", "Co-founder"]
 
 # About the project
 
-I co-founded [Oswald Labs](https://oswaldlabs.com) with [Anand Chowdhary](https://anandchowdhary.com) in 2016 with the aim of creating technology which was accessible to everyone.
+I co-founded [Oswald Labs](https://oswaldlabs.com) with [Anand Chowdhary](https://anandchowdhary.com) and [Mahendra Singh Raghuwanshi](https://www.facebook.com/ermahendrar) in 2016 with the aim of creating technology which was accessible to everyone.
 Over the past few years, running this startup has taken up the majority of my time. Being a research-driven company, caring about user experience and building empathy is key to shaping our products. 
 
 While it is not possible to explain the nuances of this mega-project within the scope of this webpage, you can scroll down to read a brief description of each of the products we are currently working on.
