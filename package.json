@@ -1,0 +1,24 @@
+{
+  "name": "nishantgadihokecom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss themes/nishant-custom/static/scss/app.scss themes/nishant-custom/static/css/app.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NishantGadihoke/nishantgadihokecom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NishantGadihoke/nishantgadihokecom/issues"
+  },
+  "homepage": "https://github.com/NishantGadihoke/nishantgadihokecom#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.2"
+  }
+}
