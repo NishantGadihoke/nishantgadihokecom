@@ -14,7 +14,7 @@ Over the years, I have realised that there is no single secret recipe for buildi
 <div class="centered image-container">
     <div class="row">
         <div class="img-col col-xs-12 col-md-12">
-            <img src="img/about/me.png" alt="">
+            <img src="/img/about/me.png" alt="">
         </div>
     </div>
     <span class="image-caption">I'm not very good with photos</span>
@@ -35,7 +35,7 @@ I enjoy the company of animals and run an NGO called the [Street Animals Welfare
     <span class="image-caption">This little one is called Sonu</span>
 </div>
 
-Previously, I studied Computer Science and Design at [IIIT Delhi](https://www.iiitd.ac.in/) where I conducted independent research in the field of Human-Computer Interaction. Currently, I'm building studying Interactive Arts & Technology at [Simon Fraser University](http://www.siat.sfu.ca) in Vancouver. Whenever I commute, I spend my time listening to audiobooks and podcasts. [Click here](/#reading) to find out what I'm currently reading.
+Previously, I studied Computer Science and Design at [IIIT Delhi](https://www.iiitd.ac.in/) where I conducted independent research in the field of Human-Computer Interaction. Currently, I'm studying Interactive Arts & Technology at [Simon Fraser University](http://www.siat.sfu.ca) in Vancouver. Whenever I commute, I spend my time listening to audiobooks and podcasts. [Click here](/#reading) to find out what I'm currently reading.
 
 I'm extremely honoured to have my work recognised by organisations around the world. Recently, I featured in the [Forbes 30 Under 30 for Asia 2018](https://www.forbes.com/profile/oswald-labs/#5e41e2054374)! You can find a list of selected articles about my work by [clicking on this link](/#press).
 

@@ -1,5 +1,26 @@
 [
     {
+        "title": "The Third Door",
+        "author": "Alex Banayan",
+        "img": "the-third-door.png",
+        "link": "https://www.amazon.com/Third-Door-Uncover-Successful-Launched/dp/B07D8Z4NBC/"
+        
+    },
+    {
+        "title": "The Human Web",
+        "author": "McNeill & McNeill",
+        "img": "the-human-web.png",
+        "link": "https://www.amazon.com/Human-Web-Birds-Eye-World-History/dp/0393925684/"
+        
+    },
+    {
+        "title": "Thinking with Type",
+        "author": "Ellen Lupton",
+        "img": "thinking-with-type.png",
+        "link": "https://www.amazon.com/Thinking-Type-2nd-revised-expanded/dp/1568989695/"
+        
+    },
+    {
         "title": "Design as Art",
         "author": "Bruno Munari",
         "img": "design-as-art.png",
