@@ -6,10 +6,10 @@ intro: ["This little place on the internet is about myself."]
 draft: false
 ---
 
-Hi! I'm Nishant Gadihoke. I’m a user experience engineer based out of Vancouver, Canada. That essentially means that I can design meaningful products and build them using code.
+Hi! I'm Nishant Gadihoke. I’m a user experience engineer based out of Vancouver, Canada. As a UX engineer, I design meaningful products and build them using code.
 
-With over 3 years of experience in the field while working with 10+ startups as a consultant, I have an eye for finding elegant ways to solve complex problems. 
-Over the years, I have realised that there is no single secret recipe for building great products; it is instead a path of experimentation and leveraging your strengths to create value for people. This personal philosophy is something I like to apply to everything I do.
+With over 5 years of experience in the field while working with 10+ startups as a consultant, I have an eye for finding elegant ways to solve complex problems. 
+Over the years, I have realised that there is no single secret recipe for building great products; instead, for me, it is a path of experimentation and leveraging my strengths to create value. This personal philosophy is something I like to apply to everything I do.
 
 <div class="centered image-container">
     <div class="row">

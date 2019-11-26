@@ -11,6 +11,3 @@ You can write to me at [mail@nishantgadihoke.com](mailto:mail@nishantgadihoke.co
 Alternatively, you can [add me on LinkedIn](https://www.linkedin.com/in/nishantgadihoke/) to know more about my professional career or [follow me on Medium](https://medium.com/@ng) to read my thoughts. Just in the mood for a random conversation? [Tweet at me](https://twitter.com/NishantGadihoke) or add me on [Facebook](https://www.facebook.com/nishantgadihoke).
 
 If you’d like to discuss partnerships with Oswald Labs or need help with a product, the best way is to go to the [support page on Oswald Labs’ website](https://oswaldlabs.com/contact) or write to [yourfriends@oswaldlabs.com](mailto:yourfriends@oswaldlabs.com).
-
-<div class="centered image-container"></div>
-

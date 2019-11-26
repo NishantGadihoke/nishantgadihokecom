@@ -62,6 +62,7 @@
 	        </div>
 	    </nav>		
 	</header>
+	<button id="scroll-to-top" onclick="scrollToTop()">Scroll to top</button>
 	<main>
 		<section id="intro" class="project-intro">
 	        <div class="container">
@@ -82,10 +83,10 @@
 		        <div class="container">
 		            <div class="row">
 		                <div class="col-xs-12 col-md-8 col-lg-6 centered">
-		                    <p>Hi! I&rsquo;m Nishant Gadihoke. I’m a user experience engineer based out of Vancouver, Canada. That essentially means that I can design meaningful products and build them using code.</p>
+		                    <p>Hi! I&rsquo;m Nishant Gadihoke. I’m a user experience engineer based out of Vancouver, Canada. As a UX engineer, I design meaningful products and build them using code.</p>
 
-<p>With over 3 years of experience in the field while working with 10+ startups as a consultant, I have an eye for finding elegant ways to solve complex problems.
-Over the years, I have realised that there is no single secret recipe for building great products; it is instead a path of experimentation and leveraging your strengths to create value for people. This personal philosophy is something I like to apply to everything I do.</p>
+<p>With over 5 years of experience in the field while working with 10+ startups as a consultant, I have an eye for finding elegant ways to solve complex problems.
+Over the years, I have realised that there is no single secret recipe for building great products; instead, for me, it is a path of experimentation and leveraging my strengths to create value. This personal philosophy is something I like to apply to everything I do.</p>
 
 <div class="centered image-container">
     <div class="row">
@@ -136,6 +137,20 @@ Over the years, I have realised that there is no single secret recipe for buildi
 	  gtag('js', new Date());
 
 	  gtag('config', 'UA-129346686-1');
+	</script>
+	<script>
+		window.onscroll = function(e) { 
+			if (window.pageYOffset > 1000) {
+				document.getElementById('scroll-to-top').style.display = 'block'
+			}
+		} 
+		const scrollToTop = () => {
+			const c = document.documentElement.scrollTop || document.body.scrollTop;
+			if (c > 0) {
+				window.requestAnimationFrame(scrollToTop);
+				window.scrollTo(0, c - c / 8);
+			}
+		};
 	</script>
 	<script src="https://agastya-loader.oswaldlabs.com/nishant.js" async></script>
 </body>

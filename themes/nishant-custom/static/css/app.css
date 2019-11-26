@@ -523,6 +523,25 @@ main .grid-item {
       clear: both;
       color: #A0A0A0; }
 
+button#scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: none;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600; }
+  button#scroll-to-top:hover {
+    background: rgba(0, 0, 0, 0.4); }
+
 @media screen and (max-width: 1025px) {
   main .grid-item h2.grid-item-title {
     font-size: 2em; }
@@ -531,6 +550,10 @@ main .grid-item {
     main .grid-item ul.tags li.tag {
       font-size: 1.1em;
       margin-top: -5px; } }
+
+@media screen and (max-width: 992px) {
+  button#scroll-to-top {
+    display: none !important; } }
 
 @media screen and (max-width: 768px) {
   main .grid-item {

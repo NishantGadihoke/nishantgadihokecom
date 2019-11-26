@@ -62,6 +62,7 @@
 	        </div>
 	    </nav>		
 	</header>
+	<button id="scroll-to-top" onclick="scrollToTop()">Scroll to top</button>
 	<main>
 		<section id="intro" class="project-intro">
 	        <div class="container">
@@ -133,6 +134,20 @@
 	  gtag('js', new Date());
 
 	  gtag('config', 'UA-129346686-1');
+	</script>
+	<script>
+		window.onscroll = function(e) { 
+			if (window.pageYOffset > 1000) {
+				document.getElementById('scroll-to-top').style.display = 'block'
+			}
+		} 
+		const scrollToTop = () => {
+			const c = document.documentElement.scrollTop || document.body.scrollTop;
+			if (c > 0) {
+				window.requestAnimationFrame(scrollToTop);
+				window.scrollTo(0, c - c / 8);
+			}
+		};
 	</script>
 	<script src="https://agastya-loader.oswaldlabs.com/nishant.js" async></script>
 </body>

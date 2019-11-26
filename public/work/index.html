@@ -175,50 +175,6 @@
 		                        </div>
 							</a>
 							
-							<a href="/work/safai/" class="grid-item-link-portfolio">
-								<div class="grid-item">
-		                            <div class="grid-item-preview" style="background:#1ABC9C;">
-		                                <img class="grid-item-img" src="https://nishantgadihoke.com//img/safai/cover.png" alt="">
-		                            </div>
-		                            <div class="row">
-		                                <div class="col-xs-12 col-md-8">
-		                                    <h2 class="grid-item-title">Safai</h2>
-		                                </div>
-		                                <div class="col-xs-12 col-md-4">
-		                                    <ul class="tags">
-		                                        
-												<li class="tag">UX Design</li>
-												
-												<li class="tag">Development</li>
-												
-		                                    </ul>
-		                                </div>
-		                            </div>
-		                        </div>
-							</a>
-							
-							<a href="/work/art4education/" class="grid-item-link-portfolio">
-								<div class="grid-item">
-		                            <div class="grid-item-preview" style="background:#b2acff;">
-		                                <img class="grid-item-img" src="https://nishantgadihoke.com//img/art4education/cover.png" alt="">
-		                            </div>
-		                            <div class="row">
-		                                <div class="col-xs-12 col-md-8">
-		                                    <h2 class="grid-item-title">Art4Education</h2>
-		                                </div>
-		                                <div class="col-xs-12 col-md-4">
-		                                    <ul class="tags">
-		                                        
-												<li class="tag">Branding</li>
-												
-												<li class="tag">Developement</li>
-												
-		                                    </ul>
-		                                </div>
-		                            </div>
-		                        </div>
-							</a>
-							
 						</div>
 						<div class="col-xs-12 col-md-6">
 							
@@ -288,50 +244,6 @@
 		                        </div>
 							</a>
 							
-							<a href="/work/minet-x/" class="grid-item-link-portfolio">
-								<div class="grid-item">
-		                            <div class="grid-item-preview" style="background:#f1f2f6;">
-		                                <img class="grid-item-img" src="https://nishantgadihoke.com//img/minet-x/cover.png" alt="">
-		                            </div>
-		                            <div class="row">
-		                                <div class="col-xs-12 col-md-8">
-		                                    <h2 class="grid-item-title">MINET X</h2>
-		                                </div>
-		                                <div class="col-xs-12 col-md-4">
-		                                    <ul class="tags">
-		                                        
-												<li class="tag">UX Design</li>
-												
-												<li class="tag">Development</li>
-												
-		                                    </ul>
-		                                </div>
-		                            </div>
-		                        </div>
-							</a>
-							
-							<a href="/work/apollo/" class="grid-item-link-portfolio">
-								<div class="grid-item">
-		                            <div class="grid-item-preview" style="background:#F97F51;">
-		                                <img class="grid-item-img" src="https://nishantgadihoke.com//img/apollo/cover.png" alt="">
-		                            </div>
-		                            <div class="row">
-		                                <div class="col-xs-12 col-md-8">
-		                                    <h2 class="grid-item-title">Apollo</h2>
-		                                </div>
-		                                <div class="col-xs-12 col-md-4">
-		                                    <ul class="tags">
-		                                        
-												<li class="tag">UX Design</li>
-												
-												<li class="tag">Developement</li>
-												
-		                                    </ul>
-		                                </div>
-		                            </div>
-		                        </div>
-							</a>
-							
 						</div>
 		            </div>
 		        </div>
@@ -349,6 +261,20 @@
 	  gtag('js', new Date());
 
 	  gtag('config', 'UA-129346686-1');
+	</script>
+	<script>
+		window.onscroll = function(e) { 
+			if (window.pageYOffset > 1000) {
+				document.getElementById('scroll-to-top').style.display = 'block'
+			}
+		} 
+		const scrollToTop = () => {
+			const c = document.documentElement.scrollTop || document.body.scrollTop;
+			if (c > 0) {
+				window.requestAnimationFrame(scrollToTop);
+				window.scrollTo(0, c - c / 8);
+			}
+		};
 	</script>
 	<script src="https://agastya-loader.oswaldlabs.com/nishant.js" async></script>
 </body>

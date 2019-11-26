@@ -2,7 +2,7 @@
 title: "Bharathacks"
 date: 2018-11-10T13:55:05+05:30
 draft: false
-weight: 9
+weight: 11
 homeImg: "bharathacks/home.png"
 coverImg: "bharathacks/cover.png"
 color: "#2D577B"

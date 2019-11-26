@@ -2,7 +2,7 @@
 title: "Searchie"
 date: 2018-11-10T13:41:27+05:30
 draft: false
-weight: 7
+weight: 9
 homeImg: "searchie/home.png"
 coverImg: "searchie/cover.png"
 color: "#FF9090"
@@ -281,7 +281,7 @@ Here is what the platform looked like:
 <div class="centered image-container large">
     <div class="row">
         <div class="img-col col-xs-12 col-md-6">
-            <img src="/img/searchie/16.png" alt=""> class="shadow-img"
+            <img src="/img/searchie/16.png" alt="" class="shadow-img">
         </div>
         <div class="img-col col-xs-12 col-md-6">
             <img src="/img/searchie/17.png" alt="" class="shadow-img">

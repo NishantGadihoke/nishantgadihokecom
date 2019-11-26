@@ -2,7 +2,7 @@
 title: "Apollo"
 date: 2018-11-10T13:55:21+05:30
 draft: false
-weight: 11
+weight: 7
 homeImg: "apollo/home.png"
 coverImg: "apollo/cover.png"
 color: "#F97F51"

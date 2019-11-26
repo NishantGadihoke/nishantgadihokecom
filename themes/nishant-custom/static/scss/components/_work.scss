@@ -41,6 +41,27 @@ main {
     }
 }
 
+button#scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background: rgba(0,0,0,0.2);
+    box-shadow: none;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;;
+    &:hover {
+        background: rgba(0,0,0,0.4);
+    }
+}
+
 @media screen and (max-width: 1025px) {
     main {
         .grid-item {
@@ -59,7 +80,9 @@ main {
 }
 
 @media screen and (max-width: 992px) {
-    
+    button#scroll-to-top {
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 768px) {

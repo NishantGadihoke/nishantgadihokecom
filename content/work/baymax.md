@@ -2,7 +2,7 @@
 title: "Baymax"
 date: 2018-11-10T13:42:01+05:30
 draft: false
-weight: 8
+weight: 10
 homeImg: "baymax/home.png"
 coverImg: "baymax/cover.png"
 color: "#DE9947"
